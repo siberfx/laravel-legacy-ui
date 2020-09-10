@@ -15,7 +15,7 @@ class AuthRouteMethods
         return function ($options = []) {
             $namespace = class_exists($this->prependGroupNamespace('Auth\LoginController')) ? null : 'App\Http\Controllers';
 
-            $this->group(['namespace' => $namespace], function() use($options) {
+            $this->group(['namespace' => $namespace], function () use ($options) {
                 // Login Routes...
                 if ($options['login'] ?? true) {
                     $this->get('login', 'Auth\LoginController@showLoginForm')->name('login');
@@ -39,8 +39,10 @@ class AuthRouteMethods
                 }
 
                 // Password Confirmation Routes...
-                if ($options['confirm'] ??
-                    class_exists($this->prependGroupNamespace('Auth\ConfirmPasswordController'))) {
+                if (
+                    $options['confirm'] ??
+                    class_exists($this->prependGroupNamespace('Auth\ConfirmPasswordController'))
+                ) {
                     $this->confirmPassword();
                 }
 

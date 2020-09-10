@@ -37,7 +37,7 @@ class UiCommand extends Command
             return call_user_func(static::$macros[$this->argument('type')], $this);
         }
 
-        if (! in_array($this->argument('type'), ['bootstrap', 'vue', 'react'])) {
+        if (!in_array($this->argument('type'), ['bootstrap', 'vue', 'react'])) {
             throw new InvalidArgumentException('Invalid preset.');
         }
 
