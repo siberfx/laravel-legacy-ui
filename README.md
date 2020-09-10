@@ -1,4 +1,4 @@
-# Laravel Legacy UI with Auth scaffolding (WIP)
+# Laravel Legacy UI with Auth scaffolding
 
 <a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/v/stable.svg" alt="Latest Stable Version"></a>
