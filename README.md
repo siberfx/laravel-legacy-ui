@@ -1,12 +1,12 @@
-# Laravel UI
+# Laravel Legacy UI with Auth scaffolding
 
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://poser.pugx.org/laravel/ui/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/license.svg" alt="License"></a>
 
 ## Introduction
 
-### This project should no longer be used on new Laravel projects. Please use [Laravel Jetstream](https://github.com/laravel/jetstream) instead.
+### This project brings old Auth scaffolding to Laravel 8 for projects that cannot migrate to [Jetstream](https://github.com/laravel/jetstream)
 
 While Laravel does not dictate which JavaScript or CSS pre-processors you use, it does provide a basic starting point using [Bootstrap](https://getbootstrap.com/), [React](https://reactjs.org/), and / or [Vue](https://vuejs.org/) that will be helpful for many applications. By default, Laravel uses [NPM](https://www.npmjs.org/) to install both of these frontend packages.
 
@@ -14,7 +14,7 @@ While Laravel does not dictate which JavaScript or CSS pre-processors you use, i
 
 ## Official Documentation
 
-Documentation can be found on the [Laravel website](https://laravel.com/docs/frontend).
+Documentation can be found on the [Laravel website](https://laravel.com/docs/7.x/frontend#introduction).
 
 ## Contributing
 
@@ -26,7 +26,7 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Security Vulnerabilities
 
-Please review [our security policy](https://github.com/laravel/ui/security/policy) on how to report security vulnerabilities.
+Please review [our security policy](https://github.com/rogervila/laravel-legacy-ui/security/policy) on how to report security vulnerabilities.
 
 ## License
 
