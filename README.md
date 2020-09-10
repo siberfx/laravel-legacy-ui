@@ -14,7 +14,25 @@ While Laravel does not dictate which JavaScript or CSS pre-processors you use, i
 
 ## Official Documentation
 
-Documentation can be found on the [Laravel website](https://laravel.com/docs/7.x/frontend#introduction).
+While Laravel does not dictate which JavaScript or CSS pre-processors you use, it does provide a basic starting point using [Bootstrap](https://getbootstrap.com/), [React](https://reactjs.org/), and / or [Vue](https://vuejs.org/) that will be helpful for many applications. By default, Laravel uses [NPM](https://www.npmjs.org) to install both of these frontend packages.
+
+The Bootstrap and Vue scaffolding provided by Laravel is located in the `rogervila/laravel-legacy-ui` Composer package, which may be installed using Composer:
+
+    composer require rogervila/laravel-legacy-ui
+
+Once the `rogervila/laravel-legacy-ui` package has been installed, you may install the frontend scaffolding using the `ui` Artisan command:
+
+    // Generate basic scaffolding...
+    php artisan ui bootstrap
+    php artisan ui vue
+    php artisan ui react
+
+    // Generate login / registration scaffolding...
+    php artisan ui bootstrap --auth
+    php artisan ui vue --auth
+    php artisan ui react --auth
+
+The rest of documentation can be found on the [Laravel website](https://laravel.com/docs/7.x/frontend#introduction).
 
 ## Contributing
 
