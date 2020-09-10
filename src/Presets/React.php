@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui\Presets;
+namespace Laravel\LegacyUi\Presets;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
@@ -44,7 +44,7 @@ class React extends Preset
      */
     protected static function updateWebpackConfiguration()
     {
-        copy(__DIR__.'/react-stubs/webpack.mix.js', base_path('webpack.mix.js'));
+        copy(__DIR__ . '/react-stubs/webpack.mix.js', base_path('webpack.mix.js'));
     }
 
     /**
@@ -59,7 +59,7 @@ class React extends Preset
         );
 
         copy(
-            __DIR__.'/react-stubs/Example.js',
+            __DIR__ . '/react-stubs/Example.js',
             resource_path('js/components/Example.js')
         );
     }
@@ -71,6 +71,6 @@ class React extends Preset
      */
     protected static function updateBootstrapping()
     {
-        copy(__DIR__.'/react-stubs/app.js', resource_path('js/app.js'));
+        copy(__DIR__ . '/react-stubs/app.js', resource_path('js/app.js'));
     }
 }

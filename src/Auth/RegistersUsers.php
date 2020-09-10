@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Auth;
+namespace Laravel\LegacyUi\Auth;
 
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\JsonResponse;

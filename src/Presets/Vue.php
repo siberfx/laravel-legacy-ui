@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui\Presets;
+namespace Laravel\LegacyUi\Presets;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
@@ -50,7 +50,7 @@ class Vue extends Preset
      */
     protected static function updateWebpackConfiguration()
     {
-        copy(__DIR__.'/vue-stubs/webpack.mix.js', base_path('webpack.mix.js'));
+        copy(__DIR__ . '/vue-stubs/webpack.mix.js', base_path('webpack.mix.js'));
     }
 
     /**
@@ -65,7 +65,7 @@ class Vue extends Preset
         );
 
         copy(
-            __DIR__.'/vue-stubs/ExampleComponent.vue',
+            __DIR__ . '/vue-stubs/ExampleComponent.vue',
             resource_path('js/components/ExampleComponent.vue')
         );
     }
@@ -77,6 +77,6 @@ class Vue extends Preset
      */
     protected static function updateBootstrapping()
     {
-        copy(__DIR__.'/vue-stubs/app.js', resource_path('js/app.js'));
+        copy(__DIR__ . '/vue-stubs/app.js', resource_path('js/app.js'));
     }
 }
