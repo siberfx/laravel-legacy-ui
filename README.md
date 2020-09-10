@@ -32,6 +32,11 @@ Once the `rogervila/laravel-legacy-ui` package has been installed, you may insta
     php artisan ui vue --auth
     php artisan ui react --auth
 
+Bootstrap scaffolding requires a modification for `webpack.mix.js` file:
+
+    mix.js('resources/js/app.js', 'public/js')
+        .sass('resources/sass/app.scss', 'public/css');
+
 The rest of documentation can be found on the [Laravel website](https://laravel.com/docs/7.x/frontend#introduction).
 
 ## Contributing
