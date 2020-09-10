@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui;
+namespace Laravel\LegacyUi;
 
 use Illuminate\Console\Command;
 use InvalidArgumentException;

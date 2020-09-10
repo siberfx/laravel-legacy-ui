@@ -20,8 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\LegacyUi\\": "src/",
-            "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+            "Laravel\\LegacyUi\\": "src/"
         }
     },
     "autoload-dev": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui;
+namespace Laravel\LegacyUi;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui;
+namespace Laravel\LegacyUi;
 
 class AuthRouteMethods
 {
