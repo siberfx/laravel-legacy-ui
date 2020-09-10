@@ -125,7 +125,7 @@ class AuthCommand extends Command
 
         file_put_contents(
             base_path('routes/web.php'),
-            file_get_contents(__DIR__ . '/Auth/stubs/routes.stub'),
+            $this->compileRoutesStub(),
             FILE_APPEND
         );
 
@@ -146,6 +146,20 @@ class AuthCommand extends Command
             '{{namespace}}',
             $this->laravel->getNamespace(),
             file_get_contents(__DIR__ . '/Auth/stubs/controllers/HomeController.stub')
+        );
+    }
+
+    /**
+     * Compiles the Web routes stub.
+     *
+     * @return string
+     */
+    protected function compileRoutesStub()
+    {
+        return str_replace(
+            '{{namespace}}',
+            $this->laravel->getNamespace(),
+            file_get_contents(__DIR__ . '/Auth/stubs/routes.stub')
         );
     }
 
