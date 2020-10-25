@@ -1,8 +1,8 @@
 # Legacy UI Presets with Auth scaffolding for Laravel 8
 
-<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://img.shields.io/packagist/dt/rogervila/laravel-legacy-ui" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://img.shields.io/packagist/v/rogervila/laravel-legacy-ui" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://img.shields.io/packagist/l/rogervila/laravel-legacy-ui" alt="License"></a>
 
 ## Introduction
 
