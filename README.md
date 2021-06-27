@@ -1,12 +1,14 @@
 # Legacy UI Presets with Auth scaffolding for Laravel 8
 
-<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://poser.pugx.org/rogervila/laravel-legacy-ui/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://img.shields.io/packagist/dt/rogervila/laravel-legacy-ui" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://img.shields.io/packagist/v/rogervila/laravel-legacy-ui" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/rogervila/laravel-legacy-ui"><img src="https://img.shields.io/packagist/l/rogervila/laravel-legacy-ui" alt="License"></a>
 
 ## Introduction
 
 ### This project brings old Auth scaffolding to Laravel 8 for projects that cannot migrate to [Jetstream](https://github.com/laravel/jetstream)
+
+> NOTE: Laravel released [laravel/breeze](https://github.com/laravel/breeze), a new scaffolding package that could fit on projects that cannot migrate to Jetstram. I recommend trying it before using this fork.
 
 While Laravel does not dictate which JavaScript or CSS pre-processors you use, it does provide a basic starting point using [Bootstrap](https://getbootstrap.com/), [React](https://reactjs.org/), and / or [Vue](https://vuejs.org/) that will be helpful for many applications. By default, Laravel uses [NPM](https://www.npmjs.org/) to install both of these frontend packages.
 
